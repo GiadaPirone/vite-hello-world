@@ -1,12 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppText from './components/AppText.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
     AppHeader,
     AppText,
-    
+    AppFooter
   }
 }
 </script>
@@ -17,9 +18,13 @@ export default {
     <AppHeader />
   </header>
 
-  <!-- <main>
+  <main>
     <AppText/>
-  </main> -->
+  </main>
+
+  <footer>
+    <AppFooter/>
+  </footer>
 
 </template>
 
